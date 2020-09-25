@@ -7,7 +7,7 @@
     <meta name="keywords" content="Specer, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Specer | Template</title>
+    <title>Campeonato Beira Rio</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
      
         <ul class="main-menu mobile-menu">
             <li class="active"><a href="./index.html">Home</a></li>
-            <li><a href="./club.html">Club</a></li>
+            <li><a href="./club.html">Times</a></li>
             <li><a href="./schedule.html">Schedule</a></li>
             <li><a href="./result.html">Results</a></li>
         </ul>
@@ -46,20 +46,20 @@
 
     <!-- Header Section Begin -->
     <header class="header-section">
-
         <div class="header__nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-lg-3">
                         <div class="logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <i class="fa fa-soccer-ball-o fa-2x"></i>
+                        <h1>Beira Rio</h1>
                         </div>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-9">
                         <div class="nav-menu">
                             <ul class="main-menu">
                                 <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./club.html">Club</a></li>
+                                <li><a href="./club.html">Times</a></li>
                                 <li><a href="./schedule.html">Schedule</a></li>
                                 <li><a href="./result.html">Results</a></li>
                             </ul>
@@ -84,9 +84,11 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="hs-text">
-                                        <h4>30 september 2019 / 9:00 GMT+0000</h4>
-                                        <h2>Airrosten VS Lerenort in London</h2>
-                                        <a href="#" class="primary-btn">More Details</a>
+                                        <h4>27 Setembro 2020 / 20:30</h4>
+                                        <h2>O menor Campeonato do mundo</h2>
+                                        <a href="#" class="primary-btn" data-toggle="modal" data-target="#exampleModal">
+                                            Comprar ingresso!
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -98,25 +100,13 @@
     </section>
     <!-- Hero Section End -->
 
-    <!-- Trending News Section Begin -->
-    <div class="trending-news-section">
-        <div class="container">
-            <div class="tn-title"><i class="fa fa-caret-right"></i> Trending News</div>
-            <div class="news-slider owl-carousel">
-                <div class="nt-item">Vinyl Banners With Its Different Types Kinds And Applications</div>
-                <div class="nt-item">Banners With Its Different Types Kinds And Applications</div>
-            </div>
-        </div>
-    </div>
-    <!-- Trending News Section End -->
-
     <!-- Match Section Begin -->
     <section class="match-section set-bg" data-setbg="img/match/match-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="ms-content">
-                        <h4>Next Match</h4>
+                        <h4>Próximos Jogos</h4>
                         <div class="mc-table">
                             <table>
                                 <tbody>
@@ -184,7 +174,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ms-content">
-                        <h4>Recent Results</h4>
+                        <h4>proximos jogos Results</h4>
                         <div class="mc-table">
                             <table>
                                 <tbody>
@@ -405,7 +395,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="section-title">
-                        <h3>Club <span>Ranking</span></h3>
+                        <h3>Times <span>Ranking</span></h3>
                     </div>
                     <div class="points-table">
                         <table>
@@ -661,7 +651,7 @@
                                     <img src="img/news/ln-5.jpg" alt="">
                                 </div>
                                 <div class="ni-text">
-                                    <h5><a href="#">Le Havre does have a growing fan club</a></h5>
+                                    <h5><a href="#">Le Havre does have a growing fan Times</a></h5>
                                     <ul>
                                         <li><i class="fa fa-calendar"></i> May 19, 2019</li>
                                         <li><i class="fa fa-edit"></i> 3 Comment</li>
@@ -744,6 +734,22 @@
         </div>
     </section>
     <!-- Popular News Section End -->
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <img src="./img/ingressos.gif" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
