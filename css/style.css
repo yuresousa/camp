@@ -632,6 +632,7 @@ ol {
 	width: 50px;
 }
 
+
 .ms-content .mc-table table tr td h6 {
 	color: #ffffff;
 	display: inline-block;
@@ -675,7 +676,10 @@ ol {
 	font-size: 14px;
 	color: #ffffff;
 }
-
+.ms-content .mc-table table tr td.mt-content .mc-op img {
+	object-fit: cover;
+	height: 50px;
+}
 .ms-content .mc-table table tr td.mt-content h4 {
 	color: #ffffff;
 	font-weight: 700;
