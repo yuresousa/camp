@@ -942,6 +942,9 @@ ol {
 	color: #636363;
 	padding: 12px 0;
 }
+.fa-poo{
+	color: black;
+}
 
 .points-table table tbody tr td.team-name {
 	text-align: left;
