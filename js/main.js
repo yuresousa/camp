@@ -1,11 +1,3 @@
-/*  ---------------------------------------------------
-    Template Name: Specer
-    Description: Specer Sport HTML Template
-    Author: Colorlib
-    Author URI: http://colorlib.com
-    Version: 1.0
-    Created: Colorlib
----------------------------------------------------------  */
 
 'use strict';
 
